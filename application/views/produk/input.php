@@ -20,26 +20,26 @@
 			<div class="form-group">
 				<label for="kategoriproduk">Kategori Produk</label>
 				<select class="form-control <?= form_error('kategoriproduk') ? 'is-invalid' : '' ?>" id="kategoriproduk" name="kategoriproduk">
-					<option value="1">Tinta Printer</option>
-					<option value="2">CISS Infus Modifikasi</option>
-					<option value="3">Cartridge</option>
-					<option value="4">Toner</option>
-					<option value="5">Paket Printer</option>
-					<option value="6">Aksesoris Printer</option>
+					<option value="Tinta Printer">Tinta Printer</option>
+					<option value="CISS Infus Modifikasi">CISS Infus Modifikasi</option>
+					<option value="Cartridge">Cartridge</option>
+					<option value="Toner">Toner</option>
+					<option value="Paket Printer">Paket Printer</option>
+					<option value="Aksesoris Printer">Aksesoris Printer</option>
 				</select>
 			</div>
 
 
             <div class="form-group">
-				<label for="status">Status Produk</label>
-				<select class="form-control <?= form_error('status') ? 'is-invalid' : '' ?>" id="status" name="status">
-					<option value="1">Bisa DiJual</option>
-					<option value="0">Belum Bisa Dijual</option>
+				<label for="statusproduk">Status Produk</label>
+				<select class="form-control <?= form_error('statusproduk') ? 'is-invalid' : '' ?>" id="statusproduk" name="statusproduk">
+					<option value="Bisa DiJual">Bisa DiJual</option>
+					<option value="Belum Bisa Dijual">Belum Bisa Dijual</option>
 				</select>
 			</div>
 
 			<button type="submit" class="btn btn-primary btn-user btn-block">
-				Register Account
+				Simpan Data
 			</button>
 		</form>
 

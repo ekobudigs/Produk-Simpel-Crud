@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Project JNT EKO BUDI</title>
+    <title>Project FastPrint EKO BUDI</title>
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url(); ?>/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -46,31 +46,12 @@
 
 <!-- Nav Item - Dashboard -->
 <li class="nav-item active">
-    <a class="nav-link" href="/">
+    <a class="nav-link" href="<?= base_url('produk') ?>">
         <i class="fas fa-fw fa-tachometer-alt"></i>
-        <span>Dashboard</span></a>
-</li>
-<li class="nav-item active">
-    <a class="nav-link" href="/penduduk">
-      
-        <i class="fas fa-file-alt"></i>
-        <span>Penduduk</span></a>
+        <span>Produk</span></a>
 </li>
 
-<!-- Divider -->
 <hr class="sidebar-divider">
-
-<!-- Heading -->
-<div class="sidebar-heading">
-    Data Grafik
-</div>
-
-<!-- Nav Item - Pages Collapse Menu -->
-<li class="nav-item">
-    <a class="nav-link" href="/grafik-umur">
-        <i class="fas fa-fw fa-chart-area"></i>
-        <span>Grafik</span></a>
-</li>
 
 
 

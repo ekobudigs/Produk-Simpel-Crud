@@ -19,15 +19,15 @@ class Model_produk extends CI_Model
 
     
 
-    function getproduk($kodeproduk)
+    function getproduk($idproduk)
     {
-        return $this->db->get_where('produk', array('kode_produk' => $kodeproduk));
+        return $this->db->get_where('produk', array('id_produk' => $idproduk));
 
     }
 
-    function updateproduk($data, $kodeproduk)
+    function updateproduk($data, $idproduk)
     {
-    	$simpan = $this->db->update('produk', $data, array('kode_produk' => $kodeproduk));
+    	$simpan = $this->db->update('produk', $data, array('id_produk' => $idproduk));
 
     	 if($simpan) {
            return 1;
@@ -38,9 +38,9 @@ class Model_produk extends CI_Model
     }
 
 
-     function deleteproduk($kodeproduk)
+     function deleteproduk($idproduk)
     {
-    	$hapus = $this->db->delete('produk', array('kode_produk' => $kodeproduk));
+    	$hapus = $this->db->delete('produk', array('id_produk' => $idproduk));
 
     	 if($hapus) {
            return 1;
